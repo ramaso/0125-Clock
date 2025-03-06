@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin: 0 auto 1rem;
+    border-bottom: 2px solid goldenrod;
+    width: fit-content;
+}
+
+section{
+    padding: 1rem;
+}
+
+section:nth-child(even){
+    background-color: antiquewhite;
+}

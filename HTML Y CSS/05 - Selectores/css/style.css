@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 20px;
+    text-transform: capitalize;
+
+    text-decoration: line-through crimson double;
+}
+
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+section{
+    background-color: #222222;
+    color: white;
+    padding: 20px 30px 
+}
+
+.section-resaltado{
+    background-color: pink;
+    color: whitesmoke;
+    margin: 24px;
+    border-radius: 16px;
+    line-height: 1.4;
+    font-size: 16px;
+}

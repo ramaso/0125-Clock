@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/HTML Y CSS/06 - Formularios/css/style.css">
+</head>
+<body>
+    <h1 class="main-title">Formulario</h1> 
+
+    <a href="/HTML Y CSS/06 - Formularios/pages/form/controles.html">Controles de formularios</a>
+    <form class="user-form">
+        <div class="input-group">
+
+            <label form="fullname">Nombre completo</label>
+
+            <input type="text" name="nombreCompleto" id="fullname">
+    </div>
+
+    <div class="input-group">
+        <label for="Correo">Email</label>
+
+        <input type="email" name="email" id="correo">
+
+    </div>
+
+    <div class="input-group">
+        <label for="edad">Edad</label>
+        <input type="number" name="age" id="edad">
+    </div>
+
+    <div class="input-group">
+        <label for="contrasena">Contraseña</label>
+        <input type="password" name="password" id="contrasena">
+    </div>
+
+    <div class="input-group">
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <input type="dat" name="nacimiento" id="nacimiento">
+    </div>
+
+    <div class="input-group">
+        <label for="redSocial">Red social</label>
+        <input type="url" name="socialNetwork" id="redSocial">
+    </div>
+
+    <div class="input-group">
+        <label for="avatar">Foto de perfil</label>
+        <input type="file" name="profilePic" id="avatar">
+    </div>
+
+    <div class="input-group">
+        <label for="color">Color favorito</label>
+        <input type="color" name="color" id="color">
+    </div>
+
+    <div class="input-group">
+        <label for="conocimiento">Nivel de conocimiento en programacion</label>
+        <input type="range" name="conocimiento" id="conocimiento">
+    </div>
+
+    <div class="input-group">
+        <label for="phone">Telefono</label>
+        <input type="tel" name="telefono" id="phone">
+    </div>
+
+    <div class="input-group">
+        <label for="description">Descripcion</label>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+    </div>
+
+    <div class="input-group">
+        <label for="country">Pais</label>
+        <select name="country" id="country">
+            <option value="AO">Angola</option>
+            <option value="AI">Anguilla</option>
+            <option value="AR" selected>Argentina</option>
+            <option value="AM">Armenia</option>
+            <option value="AU">Australia</option>
+            <option value="AT">Austria</option>
+            <option value="BS">Bahamas</option>
+        </select>
+    </div>
+
+    <div class="input-group">
+        <label for="genero">Genero</label>
+        <input type="radio" name="genero" value="F"> Femenino <br>
+        <input type="radio" name="genero" value="M"> Masculino <br>
+        <input type="radio" name="genero" value="O"> Otro <br>
+        <input type="radio" name="genero" value="NO"> Prefiero no decirlo<br>
+    </div>
+
+    <div class="input-group">
+        <label>Lenguajes de interes</label>
+        <input type="checkbox" name="lenguaje" value="html"> HTML <br>
+        <input type="checkbox" name="lenguaje" value="css"> CSS <br>
+        <input type="checkbox" name="lenguaje" value="js"> Java Scrit <br>
+        <input type="checkbox" name="lenguaje" value="react"> React <br>
+    </div>
+
+    <div class="input-group">
+        <button class="form-button" type="submit"> Registrar </button>
+    </div>
+ </form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles</title>
+
+
+    <link rel="stylesheet" href="/HTML Y CSS/06 - Formularios/css/style.css">
+</head>
+<body>
+    <h1 class="main-title">Controles</h1>
+    
+    <form class="user-form">
+
+        <div class="input-group">
+
+            <label for="name">Nombre</label>
+
+            <input type="text"
+                    name="name"
+                    id="name"
+                    required
+                    minlength="6"
+                    maxlength="20">
+        </div>
+
+        <div class="input-group">
+
+            <input type="email"
+                    name="email"
+                    placeholder="ejemplo@gmail.com"
+                    pattern=" [A-Za-z0-9._+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$">
+        </div>
+
+        <div class="input-group">
+            <label for="price">Precio</label>
+            <input type="number"
+                    name="price"
+                    id="price"
+                    min="0"
+                    max="100"
+                    required
+                    step="0.01">
+        </div>
+
+        <div class="input-group">
+            <label for="conocimiento">Nivel de conocimiento</label>
+            <input type="range"
+                    name="conocimiento"
+                    id="conocimiento"
+                    min="0"
+                    max="10"
+                    value="10">
+        </div>
+
+        <div class="input-group">
+            <label for="date">Fecha de turno</label>
+            <input type="date"
+                    name="date"
+                    id="name"
+                    min="2025-01-21"
+                    max="2025-01-28">
+        </div>
+
+        <div class="input-group">
+            <button class="form-button" type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

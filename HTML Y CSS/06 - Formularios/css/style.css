@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: beige;
+}
+
+a{
+    text-decoration: none;
+    color: royalblue;
+    margin-left: 24px;
+}
+
+.main-title{
+
+    text-align: center;
+    background-color: dodgerblue;
+    line-height: 1;
+    margin: 20px;
+    padding: 10px 0;
+
+    border-radius: 20px 0 20px 0;
+}
+
+.user-form{
+
+    margin: 0 auto;
+    width: 350px;
+    border: 3px solid dodgerblue;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.input-group{
+    margin: 8px 0;
+}
+.input-group label{
+
+    color: royalblue;
+    display: block;
+    font-size: 12px;
+
+
+}
+
+.form-button{
+    border: none;
+    background-color: royalblue;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+}

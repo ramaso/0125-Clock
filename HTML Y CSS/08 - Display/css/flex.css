@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.padre{
+    padding: 16px;
+    background-color: salmon;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hijo{
+    padding: 16px;
+    border: 2px solid royalblue;
+    background-color: dodgerblue;
+}

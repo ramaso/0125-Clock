@@ -1,0 +1,117 @@
+/* div{ */
+/*     margin: 1rem; */
+/* } */
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: red;
+}
+
+button{
+    background-color: royalblue;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid royalblue;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: royalblue;
+    transform: scale(1.1);
+    transition: all.1s ease-in-out
+}
+
+button:active{
+    background-color: royalblue;
+    color: white;
+    transform: scale(.1);
+}
+
+button[type="submit"]{
+    background-color: red;
+    color: white;
+}
+
+/* input{ */
+/*     transition: all 1s ease-in-out; */
+/* } */
+
+input:checked{
+    accent-color: green ;
+    width: 20px;
+    height: 20px;
+}
+
+div[class*="imagen"]{
+    background-color: crimson ;
+}
+
+div[class^="imagen"]{
+    background-color: royalblue;
+}
+
+div[class$="imagen"]{
+    background-color: blueviolet;
+}
+
+div[class^="col-"]{
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+.col-1{
+    width: 100%;
+}
+
+.col-2{
+    width: 75%;
+}
+
+.col-3{
+    width: 50%;
+}
+
+.col-4{
+    width: 25%;
+}
+
+input{
+    padding: 1rem;
+    outline: none;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+input:focus{
+    background-color: pink;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+.input-error{
+    color: red;
+    font-size: .75rem;
+    font-style: italic;
+    visibility: hidden;
+}
+
+input:invalid + .input-error{
+    visibility: visible;
+}
+
+input:valid{
+    background-color: lightgreen;
+    border: 3px solid green;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.cartoon-img{
+    
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.image{
+
+    width: 50%;
+    height: 200px;
+    background-color: bisque;
+    margin: 20px;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCp99NsM0MgduWBTv6wBmAhenQLw1BpVyk5A&s);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

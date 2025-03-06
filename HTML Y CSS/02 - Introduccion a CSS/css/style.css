@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Playwrite+VN:wght@100..400&display=swap');
+
+body{
+    background-color: #2b285b;
+}
+
+p{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h2{
+    color: crimson;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: chartreuse;
+    border-radius: 10px; */
+
+    border: 3px crimson dotted;
+}
+
+h3{
+    color: aqua;
+    background-color: black;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+
+    border-bottom: 5px green double;
+    border-top: 5px blue double;
+    border-right: 5px yellow double;
+    border-left: 5px red double;
+}
+
+ol{
+    color: whitesmoke;
+}
+
+ul{
+    color: #a9fafa; 
+    /*list-style-type: square;*/
+
+    list-style-type: "🚀";
+}

@@ -1,0 +1,27 @@
+.display-block{
+    display: block;
+    background-color: dodgerblue;
+}
+
+.display-inline{
+    display: inline-block;
+    background-color: aqua;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+a{
+    background-color: dodgerblue;
+    display: inline-block;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    margin-bottom: 40pt;
+}
+
+.display-none{
+    background-color: darkred;
+    display: none;
+}
