@@ -6,7 +6,7 @@
     inherits: false;
 }
 .text-danger {
-    color: red;
+    color: rgb(236, 11, 11);
 }
 * {
     margin: 0;
